@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/modern-normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./datepicker/css/datepicker.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/logo/favicon.png" />
+    <title>Т2 Тереми на Дніпрі</title>
+  </head>
+  <body>
+    <!-- ===== LOADING ===== -->
+    <div class="loader"></div>
+    <!-- ===== LOADING ===== -->
+
+    <main>
+      <div class="container" id="top">
+        <!--=========  HEADER DESKTOP ======= -->
+        <div class="header-desktop">
+          <a href="./" class="logo-link">
+            <img
+              src="./images/logo/logo-wood-200x200.webp"
+              class="logo-img"
+              alt="Логотип терми на Дніпрі"
+            />
+          </a>
+          <nav class="header-desktop-nav">
+            <a href="#about" class="header-desktop-link">Про нас</a>
+
+            <a href="#gallery" class="header-desktop-link">Галерея</a>
+            <a href="#programs" class="header-desktop-link">Програми</a>
+            <a href="#reservation" class="header-desktop-link">Бронювання</a>
+            <a
+              href="https://dneprovskaya-riviera.choiceqr.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="header-desktop-link"
+              >Меню</a
+            >
+            <a href="#contacts" class="header-desktop-link">Контакти</a>
+          </nav>
+        </div>
+        <!--=========  HEADER DESKTOP ======= -->
+
+        <!--=========  HEADER MOBILE ======= -->
+        <div class="header-mobile">
+          <a href="./" class="logo-link">
+            <img
+              src="./images/logo/logo-wood-200x200.webp"
+              class="logo-img"
+              alt="Логотип терми на Дніпрі"
+            />
+          </a>
+          <button
+            class="menu-btn"
+            aria-label="Кнопка мобільного меню"
+            type="button"
+            aria-expanded="false"
+          >
+            <svg class="menu-icon">
+              <use href="./images/icons.svg#icon-waves"></use>
+            </svg>
+          </button>
+        </div>
+        <!--=========  HEADER MOBILE ======= -->
+
+        <!-- ====== VIDEO ====== -->
+        <div class="background-container">
+          <section class="video-section">
+            <video
+              autoplay
+              loop
+              muted
+              id="video1"
+              width="100%"
+              height="100%"
+              playsinline
+            >
+              <source src="./video/video-desktop-720.mp4" />
+            </video>
+            <video
+              autoplay
+              loop
+              muted
+              id="video2"
+              width="100%"
+              height="100%"
+              playsinline
+            >
+              <source src="./video/mobile-17.5.mp4" />
+            </video>
+            <a href="#reservation" class="video-btn"
+              >Затопити лазню
+              <svg width="30" height="30" class="video-btn-icon">
+                <use href="./images/icons.svg#icon-steam"></use></svg
+            ></a>
+          </section>
+          <section id="about" class="about-us section">
+            <h1 class="section-title about-title">Про нас</h1>
+
+            <div class="about-container">
+              <img
+                src="./images/gallery/photo-12.webp"
+                class="about-us-img reveal-left"
+                width="345"
+                loading="lazy"
+                height="520"
+                alt="Чан"
+              />
+              <div class="tablet-text reveal-right">
+                <p class="about-us-text">
+                  <span class="about-us-text-bold"> Терми на Дніпрі </span>
+                  - унікальний комплекс на березі Дніпра, який охоплює
+                  багатовікові традиції банного відпочинку та сучасні високі
+                  стандарти комфорту.
+                </p>
+                <p class="about-us-text">
+                  Професійні пармейстри, авторські програми, м'який пар
+                  допомагають відновити гармонію тіла та духу. А широкий вибір
+                  процедур дозволяють поєднати похід у лазню зі спа-доглядом:
+                </p>
+                <p class="about-us-text-list">- пілінгами</p>
+                <p class="about-us-text-list">- обмиванням</p>
+                <p class="about-us-text-list">
+                  - класичними та пінними масажами
+                </p>
+                <p class="about-us-text-list">- купеллю на травах тощо</p>
+                <p class="about-us-text">
+                  Довіряючи нам свій відпочинок, будьте впевнені - ми покажемо,
+                  що таке справжня гостинність, сервіс та банні традиції.
+                </p>
+              </div>
+            </div>
+            <div class="about-container">
+              <img
+                src="./images/gallery/photo-8.webp"
+                class="about-us-img reveal-left"
+                width="345"
+                loading="lazy"
+                height="520"
+                alt="басейн"
+              />
+              <div class="tablet-text reveal-right">
+                <p class="about-us-text">
+                  Комплекс складається із двох будинків Т1 та Т2, комфортною
+                  місткістю до 8 осіб кожен. При відвідуванні лазні надаються
+                  всі необхідні аксесуари та приладдя, а в зоні відпочинку вас
+                  буде чекати трав'яний чай зі смаколиками.
+                </p>
+                <p class="about-us-text">
+                  Кожен будинок облаштований фіто-кімнатою з ортопедичним
+                  матрасом, басейном, айбадом.
+                </p>
+                <button class="read-more-btn" aria-label="Кнопка читати більше">
+                  Читати більше...
+                </button>
+                <div class="read-more">
+                  <p class="about-us-text">
+                    Серце комплексу - «Булава» - піч переодичної дії, яка може
+                    подавати пар одночасно в обидві парні. Має три відсіка для
+                    отримання пари різної температури від 200 до 550 градусів.
+                    Також у роботі «Булави» використовується камінь вулканічного
+                    походження Діорит у кількості 500кг.
+                  </p>
+                  <p class="about-us-text">
+                    Оброблена піч кахлями ручної роботи. Індивідуальні процедури
+                    проводяться на матрацах і подушках наповнених лушпинням
+                    насіння конопель. В лауж-зоні є холодна купіль, гойдалка,
+                    чан та місця для холодного паріння.
+                  </p>
+                  <p class="about-us-text">
+                    Також після спекотних лазневих процедур є можливість
+                    освіжитися приємною прохолодою вод Дніпра. Для спа-процедур
+                    маємо підігріваючі кам'яні поверхні, а також масажний
+                    кабінет. Усі печі комплексу топляться на дубових дровах, а у
+                    роботі пармейстри використовують віники березові та
+                    канадського дубу.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- =========== GALLERY  ==========-->
+          <section id="gallery" class="gallery section reveal-bottom">
+            <h1 class="section-title">Галерея</h1>
+            <div class="slider slider-mobile-tablet">
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-1.webp"
+                  alt="коридор лазні"
+                  loading="lazy"
+                  width="100%"
+                  height="auto"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-2.webp"
+                  alt="роздягальня лазні"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-3.webp"
+                  alt="дзеркало в лазні"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-4.webp"
+                  alt="коридор до лазні"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-5.webp"
+                  alt="банкетний стіл"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-6.webp"
+                  alt="масажний стіл"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-7.webp"
+                  alt="вхід в лазню"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-8.webp"
+                  alt="басейн"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-9.webp"
+                  alt="процедури в лазні"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-10.webp"
+                  alt="зона відпочинку"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-12.webp"
+                  alt="чан в лазні"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-13.webp"
+                  alt="дубовий віник"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-15.webp"
+                  alt="відпочинок в лазні"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-16.webp"
+                  alt="парщик в лазні"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-17.webp"
+                  alt="відро холодної води"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-18.webp"
+                  alt="відпочинок в чанах"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-19.webp"
+                  alt="відпочинок в чані"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-20.webp"
+                  alt="відпочинок в чані"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-21.webp"
+                  alt="процедури в чані"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-22.webp"
+                  alt="процедури в чані"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-23.webp"
+                  alt="арома масла"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-24.webp"
+                  alt="лікувальні масажі в лазні"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-27.webp"
+                  alt="віник для парки"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-28.webp"
+                  alt="парка віником"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-30.webp"
+                  alt="віник в маслах"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/gallery/photo-31.webp"
+                  alt="вихід з басейну"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="slider slider-desktop">
+              <div class="slider-item">
+                <img
+                  src="./images/wide/wide-1.webp"
+                  alt="роздягальня в лазні"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/wide/wide-2.webp"
+                  alt="лазня в Києві"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/wide/wide-3.webp"
+                  alt="роздягальня"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/wide/wide-4.webp"
+                  alt="зона відпочинку"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/wide/wide-5.webp"
+                  alt="банкетний стіл"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/wide/wide-6.webp"
+                  alt="матраци в лазні"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/wide/wide-7.webp"
+                  alt="відпочинок в лазні"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/wide/wide-8.webp"
+                  alt="ванночки в лазні"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/wide/wide-9.webp"
+                  alt="лежати на матрацах в лазні"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slider-item">
+                <img
+                  src="./images/wide/wide-10.webp"
+                  alt="відпочинок в лазні"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </section>
+          <!-- =========== /GALLERY  ==========-->
+          <!-- ========== PROGRAMS  =========== -->
+          <section id="programs" class="programs section">
+            <h1 class="section-title">Програми</h1>
+            <div class="programs-container">
+              <div class="program-cards reveal-left">
+                <div class="title-icon-box">
+                  <h3 class="program-title">MEDIUM</h3>
+                  <div class="icon-title-program">
+                    <svg width="40" height="40" class="program-title-icon">
+                      <use href="./images/icons.svg#icon-steam"></use>
+                    </svg>
+                  </div>
+                </div>
+                <p class="program-text">
+                  Вас чекає від 3 заходів в парну, кожен з яких буде
+                  супроджуватися різними процедурами та матиме свої особливості.
+                  Програма включає:
+                </p>
+                <ul class="program-list first-program-list">
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Ароматерапія. М'який прогрів банними віялами. Інгаляції
+                      морською сіллю з м'ятою та лавандою
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Прогрів тильної сторони ніг (з акцентом на ступні)
+                      дубовими віниками
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Ванночки для ніг з морською сіллю, ромашкою та кропивою
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Банний масаж тильної та лицьової сторін з використанням
+                      ріхних видів віників
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Контрастні процедури: холодна купіль, ІВААТ, повітряні
+                      ванни
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">Банна гойдалка</p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Фітокімната для відпочинку та відновлення
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Гарячий мильно-березовий обмив
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Аплікації лимонним соком та медом
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Скрабування морською сіллю з різновидом трав
+                    </p>
+                  </li>
+                </ul>
+
+                <ul class="program-time-people">
+                  <li class="program-time-people-item">
+                    <div>
+                      <svg width="30" height="30" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-wallet"></use>
+                      </svg>
+                    </div>
+                    <p class="program-time-people-text">
+                      Вартість:
+                      <span class="program-bold-text"> 12000 грн</span>
+                    </p>
+                  </li>
+                  <li class="program-time-people-item">
+                    <div>
+                      <svg width="30" height="30" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-clock"></use>
+                      </svg>
+                    </div>
+                    <p class="program-time-people-text">
+                      Тривалість:
+                      <span class="program-bold-text"> 3 години</span>
+                    </p>
+                  </li>
+                  <li class="program-time-people-item">
+                    <div>
+                      <svg width="30" height="30" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-group"></use>
+                      </svg>
+                    </div>
+                    <p class="program-time-people-text">
+                      Гості: <span class="program-bold-text">3 людини</span>
+                    </p>
+                  </li>
+                </ul>
+                <div class="additionally additionally-first">
+                  <h3 class="additionally-title">Додатково:</h3>
+                  <ul class="additionally-list">
+                    <li class="additionally-list-item">
+                      За кожну додаткову людину
+                      <span class="program-bold-text">- 1500 грн</span>
+                    </li>
+                    <li class="additionally-list-item">
+                      Додаткова година від 5 осіб
+                      <span class="program-bold-text"> - 3000 грн</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <a href="#reservation" class="reservation-link">Замовити</a>
+              </div>
+              <div class="program-cards reveal-right">
+                <div class="title-icon-box">
+                  <h3 class="program-title">WELL DONE</h3>
+                  <div class="icon-title-program">
+                    <svg width="40" height="40" class="program-title-icon">
+                      <use href="./images/icons.svg#icon-steam"></use>
+                    </svg>
+                    <svg
+                      width="40"
+                      height="40"
+                      class="program-title-icon program-title-icon-position"
+                    >
+                      <use href="./images/icons.svg#icon-steam"></use>
+                    </svg>
+                  </div>
+                </div>
+                <p class="program-text">
+                  Вас чекає від 4 заходів в парну, кожен з яких буде
+                  супроджуватися різними процедурами та матиме свої особливості.
+                  Програма включає:
+                </p>
+                <ul class="program-list">
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Ароматерапія на матрацах різнотрав'я. М'який прогрів
+                      банними віниками. Інгаляції морською сіллю з м'ятою та
+                      лавандою
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Прогрів тильної сторони ніг (з акцентом на ступні) банними
+                      віниками на матраціх різнотрав'я
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Ванночки для ніг з морською сіллю, кропивою та цедрою
+                      лимона
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Банний масаж на матрацах, які наповнені конопляним
+                      лушпинням
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Контрастні процедури кубиками льоду виготовлених з отвару
+                      різнотрав'я
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Контрастні процедури на терасі: холодна купіль, гарячий
+                      гідромасажний чан, холодне паріння «Иокубаускас»
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Розтирання березовими віниками в парній на високому пару
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Фітокімната для відпочинку та відновлення
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Гарячий мильно-березовий обмив на основі мила ручної
+                      роботи
+                    </p>
+                  </li>
+                  <li class="program-list-item">
+                    <div>
+                      <svg width="35" height="35" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    </div>
+                    <p class="program-list-item-text">
+                      Унікальний пілінг на основі натуральних компонентів
+                    </p>
+                  </li>
+                </ul>
+                <ul class="program-time-people">
+                  <li class="program-time-people-item">
+                    <div>
+                      <svg width="30" height="30" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-wallet"></use>
+                      </svg>
+                    </div>
+                    <p class="program-time-people-text">
+                      Вартість: <span class="program-bold-text">18000 грн</span>
+                    </p>
+                  </li>
+                  <li class="program-time-people-item">
+                    <div>
+                      <svg width="30" height="30" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-clock"></use>
+                      </svg>
+                    </div>
+                    <p class="program-time-people-text">
+                      Тривалість:
+                      <span class="program-bold-text">4 години</span>
+                    </p>
+                  </li>
+                  <li class="program-time-people-item">
+                    <div>
+                      <svg width="30" height="30" class="program-list-icon">
+                        <use href="./images/icons.svg#icon-group"></use>
+                      </svg>
+                    </div>
+                    <p class="program-time-people-text">
+                      Гості: <span class="program-bold-text">3 людини</span>
+                    </p>
+                  </li>
+                </ul>
+                <div class="additionally">
+                  <h3 class="additionally-title">Додатково:</h3>
+                  <ul class="additionally-list">
+                    <li class="additionally-list-item">
+                      За кожну додаткову людину
+                      <span class="program-bold-text">- 1500 грн</span>
+                    </li>
+                    <li class="additionally-list-item">
+                      Додаткова година від 5 осіб
+                      <span class="program-bold-text"> - 3000 грн</span>
+                    </li>
+                  </ul>
+                </div>
+                <a href="#reservation" class="reservation-link">Замовити</a>
+              </div>
+            </div>
+          </section>
+          <!-- ========== /PROGRAMS  =========== -->
+
+          <!-- ======== ANOTHER PROCEDURES ======== -->
+          <section class="procedures section">
+            <h1 class="section-title">Інші та взаємозамінні процедури</h1>
+            <ul class="procedures-card-list">
+              <li class="procedures-card-item reveal-left">
+                <h4 class="procedures-card-title">Паріння</h4>
+                <ul class="procedures-card">
+                  <li class="procedures-card-list-item">
+                    <div class="text-container">
+                      <div class="icon-proc">
+                        <svg width="40" height="40" class="rotate-icon">
+                          <use href="./images/icons.svg#icon-aroma"></use>
+                        </svg>
+                      </div>
+                      <h4 class="card-title">«Дихай на повні груди»</h4>
+                    </div>
+                    <p class="procedures-text">
+                      Ароматерапія із використанням евкаліпту для групи
+                    </p>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 400грн
+                    </p>
+                  </li>
+
+                  <li class="procedures-card-list-item">
+                    <div class="text-container">
+                      <div class="icon-proc">
+                        <svg width="40" height="40" class="rotate-icon">
+                          <use href="./images/icons.svg#icon-bath"></use>
+                        </svg>
+                      </div>
+                      <h4 class="card-title">«Піддай пару, друже»</h4>
+                    </div>
+                    <p class="procedures-text">Додаткове паріння на 1 особу</p>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 600грн
+                    </p>
+                  </li>
+
+                  <li class="procedures-card-list-item">
+                    <div class="text-container">
+                      <div class="icon-proc">
+                        <svg width="40" height="40" class="rotate-icon">
+                          <use href="./images/icons.svg#icon-legs"></use>
+                        </svg>
+                      </div>
+                      <h4 class="card-title">«Дніпровські хвилі»</h4>
+                    </div>
+                    <p class="procedures-text">Авторське паріння на 1 особу</p>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 700грн /
+                      350грн в програмі Well Done
+                    </p>
+                  </li>
+
+                  <li class="procedures-card-list-item">
+                    <div class="text-container">
+                      <div class="icon-proc">
+                        <svg width="40" height="40" class="rotate-icon">
+                          <use href="./images/icons.svg#icon-steam"></use>
+                        </svg>
+                      </div>
+                      <h4 class="card-title">«Там-там»</h4>
+                    </div>
+                    <p class="procedures-text">
+                      Паріння в чотири руки на 1 особу
+                    </p>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 600грн
+                    </p>
+                  </li>
+
+                  <li class="procedures-card-list-item">
+                    <div class="text-container">
+                      <div class="icon-proc">
+                        <svg width="40" height="40" class="rotate-icon">
+                          <use href="./images/icons.svg#icon-bath2"></use>
+                        </svg>
+                      </div>
+                      <h4 class="card-title">«Паріння Тонус»</h4>
+                    </div>
+                    <p class="procedures-text">Паріння на 1 особу</p>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 300грн
+                    </p>
+                  </li>
+
+                  <li class="procedures-card-list-item">
+                    <div class="text-container">
+                      <div class="icon-proc">
+                        <svg width="40" height="40" class="rotate-icon">
+                          <use href="./images/icons.svg#icon-snow"></use>
+                        </svg>
+                      </div>
+                      <h4 class="card-title">«Йокубаускас»</h4>
+                    </div>
+                    <p class="procedures-text">Холодне паріння на 1 особу</p>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 300грн
+                    </p>
+                  </li>
+
+                  <li class="procedures-card-list-item">
+                    <div class="text-container">
+                      <div class="icon-proc">
+                        <svg width="40" height="40" class="rotate-icon">
+                          <use href="./images/icons.svg#icon-mass"></use>
+                        </svg>
+                      </div>
+                      <h4 class="card-title">«Рукавичка»</h4>
+                    </div>
+                    <p class="procedures-text">
+                      Розтирання сизалевими рукавицями на 1 особу
+                    </p>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 300грн
+                    </p>
+                  </li>
+
+                  <li class="procedures-card-list-item">
+                    <div class="text-container">
+                      <div class="icon-proc">
+                        <svg width="40" height="40" class="rotate-icon">
+                          <use href="./images/icons.svg#icon-vinyk"></use>
+                        </svg>
+                      </div>
+                      <h4 class="card-title">«Додай вогню»</h4>
+                    </div>
+                    <p class="procedures-text">
+                      Припарювання кропив'яним віником на 1 особу
+                    </p>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 250грн
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li class="procedures-card-item reveal-right">
+                <h4 class="procedures-card-title">
+                  Контрастні процедури в парній
+                </h4>
+                <ul class="procedures-card">
+                  <li class="procedures-card-list-item">
+                    <div class="text-container">
+                      <div class="icon-proc">
+                        <svg width="40" height="40" class="rotate-icon">
+                          <use href="./images/icons.svg#icon-ice"></use>
+                        </svg>
+                      </div>
+                      <h4 class="card-title">«Айс»</h4>
+                    </div>
+                    <p class="procedures-text">
+                      Лід на основі трав'яних відварів на 1 особу
+                    </p>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 200грн
+                    </p>
+                  </li>
+
+                  <li class="procedures-card-list-item">
+                    <div class="text-container">
+                      <div class="icon-proc">
+                        <svg width="40" height="40" class="rotate-icon">
+                          <use href="./images/icons.svg#icon-bottle"></use>
+                        </svg>
+                      </div>
+                      <h4 class="card-title">«Привіт з Грузії»</h4>
+                    </div>
+                    <p class="procedures-text">Боржомі на 1 особу</p>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 300грн
+                    </p>
+                  </li>
+
+                  <li class="procedures-card-list-item">
+                    <div class="text-container">
+                      <div class="icon-proc">
+                        <svg width="40" height="40" class="rotate-icon">
+                          <use href="./images/icons.svg#icon-citrus"></use>
+                        </svg>
+                      </div>
+                      <h4 class="card-title">«Заморожений грейпфрут»</h4>
+                    </div>
+                    <p class="procedures-text">Лід з грейпфрутом на 1 особу</p>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 300грн
+                    </p>
+                  </li>
+
+                  <li class="procedures-card-list-item">
+                    <div class="text-container">
+                      <div class="icon-proc">
+                        <svg width="40" height="40" class="rotate-icon">
+                          <use href="./images/icons.svg#icon-soap"></use>
+                        </svg>
+                      </div>
+                      <h4 class="card-title">
+                        «Гарячий мильно-березовий обмив»
+                      </h4>
+                    </div>
+                    <p class="procedures-text">
+                      На основі мила ручної роботи на 1 особу
+                    </p>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 300грн
+                    </p>
+                  </li>
+
+                  <li class="procedures-card-list-item">
+                    <div class="text-container">
+                      <div class="icon-proc">
+                        <svg width="45" height="45" class="rotate-icon">
+                          <use href="./images/icons.svg#icon-cream"></use>
+                        </svg>
+                      </div>
+                      <h4 class="card-title">«Детокс»</h4>
+                    </div>
+                    <p class="procedures-text">
+                      Скраби фірмові (в асортименті) на 1 особу
+                    </p>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 300грн
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li class="procedures-card-item reveal-left">
+                <h4 class="procedures-card-title">Ванночки для ніг</h4>
+                <ul class="procedures-card">
+                  <li class="procedures-card-addit-item">
+                    <div class="box-card">
+                      <div class="icon-check-box">
+                        <svg width="30" height="30" class="icon-check">
+                          <use href="./images/icons.svg#icon-plate"></use>
+                        </svg>
+                      </div>
+
+                      <div class="box-container">
+                        <h4 class="card-title">«Молочно-медова ванночка»</h4>
+                      </div>
+                    </div>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> на 1 особу
+                      300грн
+                    </p>
+                  </li>
+                  <li class="procedures-card-addit-item">
+                    <div class="box-card">
+                      <div class="icon-check-box">
+                        <svg width="30" height="30" class="icon-check">
+                          <use href="./images/icons.svg#icon-plate"></use>
+                        </svg>
+                      </div>
+                      <div class="box-container">
+                        <h4 class="card-title">
+                          «Кропив'яно-лимонна ванночка»
+                        </h4>
+                      </div>
+                    </div>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> на 1 особу
+                      250грн
+                    </p>
+                  </li>
+                  <li class="procedures-card-addit-item">
+                    <div class="box-card">
+                      <div class="icon-check-box">
+                        <svg width="30" height="30" class="icon-check">
+                          <use href="./images/icons.svg#icon-plate"></use>
+                        </svg>
+                      </div>
+                      <div class="box-container">
+                        <h4 class="card-title">«Соснові бруньки»</h4>
+                      </div>
+                    </div>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> на 1 особу
+                      250грн
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li class="procedures-card-item reveal-right">
+                <h4 class="procedures-card-title">Інше</h4>
+                <ul class="procedures-card">
+                  <li class="procedures-card-addit-item">
+                    <div class="box-card">
+                      <div class="icon-check-box">
+                        <svg width="30" height="30" class="icon-check">
+                          <use href="./images/icons.svg#icon-mug"></use>
+                        </svg>
+                      </div>
+                      <div class="box-container">
+                        <h4 class="card-title">
+                          Трав'яний відвар для зміцнення та росту волосся
+                          м'ята-ромашка
+                        </h4>
+                      </div>
+                    </div>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> на 1 особу
+                      200грн
+                    </p>
+                  </li>
+                  <li class="procedures-card-addit-item">
+                    <div class="box-card">
+                      <div class="icon-check-box">
+                        <svg width="30" height="30" class="icon-check">
+                          <use href="./images/icons.svg#icon-mug1"></use>
+                        </svg>
+                      </div>
+                      <div class="box-container">
+                        <h4 class="card-title">
+                          Трав'яний відвар для зміцнення та росту волосся
+                          евкаліпту
+                        </h4>
+                      </div>
+                    </div>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> на 1 особу
+                      250грн
+                    </p>
+                  </li>
+                  <li class="procedures-card-addit-item">
+                    <div class="box-card">
+                      <div class="icon-check-box">
+                        <svg width="30" height="30" class="icon-check">
+                          <use href="./images/icons.svg#icon-bowl"></use>
+                        </svg>
+                      </div>
+                      <div class="box-container">
+                        <h4 class="card-title">Чан трав'яний гідромасажний</h4>
+                      </div>
+                    </div>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> на групу
+                      3000грн
+                    </p>
+                  </li>
+                  <li class="procedures-card-addit-item">
+                    <div class="box-card">
+                      <div class="icon-check-box">
+                        <svg width="30" height="30" class="icon-check">
+                          <use href="./images/icons.svg#icon-grass"></use>
+                        </svg>
+                      </div>
+                      <div class="box-container">
+                        <h4 class="card-title">
+                          Покриття банного полка матрасами духмяного різнотравня
+                        </h4>
+                      </div>
+                    </div>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> на групу
+                      1500грн
+                    </p>
+                  </li>
+                  <li class="procedures-card-addit-item">
+                    <div class="box-card">
+                      <div class="icon-check-box">
+                        <svg width="30" height="30" class="icon-check">
+                          <use href="./images/icons.svg#icon-mass"></use>
+                        </svg>
+                      </div>
+                      <div class="box-container">
+                        <h4 class="card-title">Масаж спини та шиї</h4>
+                      </div>
+                    </div>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 30 хвилин
+                      800грн
+                    </p>
+                  </li>
+                  <li class="procedures-card-addit-item">
+                    <div class="box-card">
+                      <div class="icon-check-box">
+                        <svg width="30" height="30" class="icon-check">
+                          <use href="./images/icons.svg#icon-massage1"></use>
+                        </svg>
+                      </div>
+                      <div class="box-container">
+                        <h4 class="card-title">Масаж тильної сторони</h4>
+                      </div>
+                    </div>
+                    <p class="price-text">
+                      <span class="price-text-bold">Вартість:</span> 45 хвилин
+                      1200грн
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <!-- ======== ANOTHER PROCEDURES ======== -->
+
+        <!-- ============ RESERVATION =========== -->
+        <section id="reservation" class="reservation section reveal-bottom">
+          <h1 class="section-title">Затопити лазню</h1>
+          <form class="form">
+            <p class="form-text">
+              Введіть ваші дані та наш менеджер зв'яжеться з вами!
+            </p>
+            <input
+              type="text"
+              placeholder="Ваше ім'я*"
+              required
+              class="form-input"
+              name="name"
+            />
+            <input
+              type="text"
+              placeholder="Ваш телефон*"
+              required
+              class="form-input"
+              name="phone"
+            />
+            <input
+              type="text"
+              placeholder="Дата"
+              class="form-input datepicker-here"
+              name="date"
+              id="calendar"
+            />
+
+            <label for="time" class="time-label">Виберіть час:</label>
+            <select class="form-input form-input-select" name="time" id="time">
+              <option value="" disabled selected>Оберіть час:</option>
+              <option value="09:00">09:00</option>
+              <option value="10:00">10:00</option>
+              <option value="11:00">11:00</option>
+              <option value="12:00">12:00</option>
+              <option value="13:00">13:00</option>
+              <option value="14:00">14:00</option>
+              <option value="15:00">15:00</option>
+              <option value="16:00">16:00</option>
+              <option value="17:00">17:00</option>
+              <option value="18:00">18:00</option>
+              <option value="19:00">19:00</option>
+              <option value="20:00">20:00</option>
+              <option value="21:00">21:00</option>
+              <option value="22:00">22:00</option>
+            </select>
+
+            <button
+              class="form-button"
+              type="submit"
+              aria-label="Кнопка замовити лазню"
+            >
+              Замовити
+            </button>
+          </form>
+        </section>
+        <!-- ============ / RESERVATION =========== -->
+        <footer id="contacts" class="footer section">
+          <div class="reveal-left footer-container">
+            <h1 class="section-title">Наші контакти</h1>
+            <p class="footer-text">Лазневий комплекс - Терми на Дніпрі</p>
+            <ul class="footer-list">
+              <li class="footer-list-item">
+                <svg width="30" height="30" class="footer-icon">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+                <p class="footer-time">Працюємо з 9:00 до 22:30</p>
+              </li>
+              <li class="footer-list-item">
+                <svg width="30" height="30" class="footer-icon">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                <a href="tel:0980427768" class="footer-link">(098) 042 77 68</a>
+              </li>
+              <li class="footer-list-item">
+                <svg width="30" height="30" class="footer-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+                <a
+                  href="https://www.instagram.com/termy_na_dnipri/?igshid=MzRlODBiNWFlZA%3D%3D"
+                  target="_blank"
+                  class="footer-link"
+                  >termy_na_dnipri</a
+                >
+              </li>
+              <li class="footer-list-item footer-location">
+                <div class="footer-location-box">
+                  <svg width="30" height="30" class="footer-icon">
+                    <use href="./images/icons.svg#icon-location"></use>
+                  </svg>
+                  <a
+                    href="https://maps.app.goo.gl/KvogoFz5MtTFkqui8"
+                    target="_blank"
+                    class="footer-link"
+                    >о. Жуків, Лютнева, 58К</a
+                  >
+                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1273.2729932421892!2d30.6007631!3d50.3377211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c6dd167472a9%3A0x8a5ba36f964ad42e!2z0KLQtdGA0LzQuCDQvdCwINCU0L3RltC_0YDRlg!5e0!3m2!1suk!2sua!4v1697903654027!5m2!1suk!2sua"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  class="map"
+                  title="Локація терми на Дніпрі"
+                ></iframe>
+              </li>
+            </ul>
+          </div>
+        </footer>
+        <div class="politic">
+          <p>© 2023 Всі права захищені</p>
+          <a href="./files/Politic.pdf" target="_blank" class="politic-link"
+            >Політика конфіденційності</a
+          >
+        </div>
+      </div>
+
+      <!-- ======= BURGER MENU ====== -->
+      <div class="burger-menu">
+        <button
+          class="mobile-close-btn js-close-menu"
+          type="button"
+          aria-label="Кнопка закрити мобільне меню"
+        >
+          <svg width="30" height="30" class="icon-close">
+            <use href="./images/icons.svg#icon-close1"></use>
+          </svg>
+        </button>
+        <img
+          src="./images/logo/logo-wood-200x200.webp"
+          alt="Логотип терми на Дніпрі"
+          class="burger-menu-logo"
+        />
+        <div class="mobile-nav">
+          <ul class="mobile-nav-list">
+            <li><a href="#about" class="mobile-link">Про нас</a></li>
+            <li><a href="#gallery" class="mobile-link">Галерея</a></li>
+            <li><a href="#programs" class="mobile-link">Програми</a></li>
+            <li>
+              <a
+                href="https://dneprovskaya-riviera.choiceqr.com/"
+                class="mobile-link"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Меню</a
+              >
+            </li>
+            <li><a href="#reservation" class="mobile-link">Бронювання</a></li>
+            <li><a href="#contacts" class="mobile-link">Контакти</a></li>
+          </ul>
+        </div>
+        <div class="mobile-contacts">
+          <ul class="mobile-contacts-list">
+            <li>
+              <p class="mobile-contacts-title">
+                Лазневий комплекс - Терми на Дніпрі
+              </p>
+            </li>
+            <li class="mobile-contacts-item">
+              <svg class="mobile-contacts-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <a href="tel:0980427768" class="mobile-contacts-link"
+                >(098) 042 77 68</a
+              >
+            </li>
+            <li class="mobile-contacts-item">
+              <svg class="mobile-contacts-icon">
+                <use href="./images/icons.svg#icon-location"></use>
+              </svg>
+              <a
+                href="https://maps.app.goo.gl/KvogoFz5MtTFkqui8"
+                class="mobile-contacts-link"
+                rel="noreferrer noopener"
+                target="_blank"
+                >о. Жуків, Лютнева, 58К</a
+              >
+            </li>
+            <li class="mobile-contacts-item">
+              <svg class="mobile-contacts-icon">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+              <a
+                href="https://www.instagram.com/termy_na_dnipri/?igshid=MzRlODBiNWFlZA%3D%3D"
+                class="mobile-contacts-link"
+                rel="noreferrer noopener"
+                target="_blank"
+                >termy_na_dnipri</a
+              >
+            </li>
+            <li class="mobile-contacts-item">
+              <svg class="mobile-contacts-icon">
+                <use href="./images/icons.svg#icon-clock"></use>
+              </svg>
+              <p
+                href="https://www.instagram.com/termy_na_dnipri/?igshid=MzRlODBiNWFlZA%3D%3D"
+                class="mobile-contacts-link"
+              >
+                Працюємо з 9:00 до 22:30
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ============ MODAL CALL  ============-->
+      <div class="backdrop">
+        <div class="modal-call">
+          <button
+            type="button"
+            class="modal-close-btn"
+            aria-label="Кнопка закрити зворотній зв'язок"
+          >
+            <svg class="modal-close-icon" width="20" height="20">
+              <use href="./images/icons.svg#icon-close1"></use>
+            </svg>
+          </button>
+          <h2 class="modal-title">Зворотній зв'язок</h2>
+          <p class="modal-text">
+            Введіть Ваші дані та наш менеджер з вами зв'яжеться!
+          </p>
+          <form class="form-call">
+            <input
+              type="text"
+              placeholder="Ваше ім'я"
+              required
+              class="modal-form-input"
+              name="name"
+            />
+            <input
+              type="text"
+              placeholder="Ваш телефон"
+              class="modal-form-input"
+              name="phone"
+            />
+            <button
+              type="submit"
+              class="modal-btn"
+              aria-label="Кнопка залишити заявку"
+            >
+              Залишити заявку
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- MODAL THANK YOU -->
+      <div class="backdrop-thank" style="display: none">
+        <div class="modal-thank">
+          <button
+            type="button"
+            class="modal-thank-close-btn"
+            aria-label="Кнопка закрити вікно подяки"
+          >
+            <svg class="modal-thank-close-icon" width="20" height="20">
+              <use href="./images/icons.svg#icon-close1"></use>
+            </svg>
+          </button>
+          <p class="modal-thank-title">
+            Ваша заявка відправлена успішно! Очікуйте, наш менеджер скоро з Вами
+            зв'яжеться!
+          </p>
+
+          <button
+            type="button"
+            class="modal-thank-btn"
+            aria-label="Кнопка закрити вікно подяки"
+          >
+            Закрити
+          </button>
+        </div>
+      </div>
+
+      <!-- ========== BUTTON UP ======= -->
+      <a class="up" href="#top">
+        <svg class="up-icon">
+          <use href="./images/icons.svg#icon-chevron-up"></use>
+        </svg>
+      </a>
+      <!-- ========== BUTTON UP ======= -->
+
+      <!-- ==========  BUTTON DISCOUNT ======= -->
+      <button type="button" class="discount-btn">
+        <svg class="discount-icon">
+          <use href="./images/icons.svg#icon-fire"></use>
+        </svg>
+        <p class="discount-text">АКЦІЯ</p>
+      </button>
+      <!-- ==========  BUTTON DISCOUNT ======= -->
+      <div class="discount-container">
+        <div class="discount-box">
+          <button type="button" class="discount-close-btn">
+            <svg width="30" height="30" class="discount-close-icon">
+              <use href="./images/icons.svg#icon-close1"></use>
+            </svg>
+          </button>
+          <img src="./images/discount/discount.webp" class="discount-img" />
+        </div>
+      </div>
+
+      <!-- ========== BUTTON CALL ======= -->
+
+      <a
+        class="call"
+        href="tel:0980427768"
+        aria-label="Кнопка зворотній зв'язок"
+      >
+        <svg class="call-icon">
+          <use href="./images/icons.svg#icon-phone"></use>
+        </svg>
+      </a>
+      <!-- ========== BUTTON CALL ======= -->
+
+      <!-- ========== BUTTON CHAT ======= -->
+      <button class="chat" aria-label="Кнопка чат">
+        <svg class="chat-icon">
+          <use href="./images/icons.svg#icon-chat"></use>
+        </svg>
+      </button>
+      <!-- ========== BUTTON CHAT ======= -->
+
+      <!-- ==========  CHAT BOX ======= -->
+      <div class="chat-box">
+        <a
+          href="https://t.me/+380980427768"
+          class="chat-phone-mess"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <svg class="icon-chat-call">
+            <use href="./images/icons.svg#icon-telegram"></use>
+          </svg>
+        </a>
+        <a
+          href="viber://chat?number=+380980427768"
+          class="chat-phone-mess"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <svg class="icon-chat-call">
+            <use href="./images/icons.svg#icon-viber"></use>
+          </svg>
+        </a>
+        <a
+          href="https://wa.me/+380980427768"
+          class="chat-phone-mess"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <svg class="icon-chat-call">
+            <use href="./images/icons.svg#icon-whatsapp"></use>
+          </svg>
+        </a>
+        <button href="" class="chat-phone">
+          <svg class="icon-chat-phone">
+            <use href="./images/icons.svg#icon-phone"></use>
+          </svg>
+        </button>
+      </div>
+      <!-- ==========  CHAT BOX ======= -->
+    </main>
+
+    <script src="./js/jquery.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/slick.min.js" type="module"></script>
+    <script src="./js/plugins.js" type="module"></script>
+    <script src="./js/axios.js" type="module"></script>
+    <script src="datepicker/js/datepicker.min.js"></script>
+    <script src="./js/mobileMenu.js" type="module"></script>
+    <script src="./js/form.js" type="module"></script>
+    <script src="./js/modals.js" type="module"></script>
+  </body>
+</html>
